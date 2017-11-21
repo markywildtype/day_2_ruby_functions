@@ -3,7 +3,7 @@ def greet(input_name, time_of_day)
   return words
 end
 
-name = "Richard"
+name = "Mark"
 
 p greet(name, "morning")
 
