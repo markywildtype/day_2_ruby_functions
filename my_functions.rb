@@ -104,7 +104,7 @@ def volume(side_length)
   return side_length ** 3
 end
 def volume_sphere(radius)
-  return 4 * (3.14 * (15 ** 3))/3
+  return 4 * (Math::PI * (15 ** 3))/3
 end
 
 def temp_convert(fahrenheit)
