@@ -108,5 +108,5 @@ def volume_sphere(radius)
 end
 
 def temp_convert(fahrenheit)
-  return (fahrenheit - 32) * (0.55)
+  return (fahrenheit - 32) * (5.0 / 9.0)
 end
